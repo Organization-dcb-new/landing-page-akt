@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aura Kreasi Teknologi</title>
+    <meta
+      name="description"
+      content="Technology Authentication, Seamless Connectivity. Trusted International Intelligent Authentication Solutions Provider"
+    />
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/images/logo.jpeg" type="image/x-icon" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md fixed w-full z-[99]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex">
+            <div class="flex-shrink-0 flex items-center">
+              <a href="#home">
+                <img
+                  class="h-8 w-auto"
+                  src="./assets/images/logo.jpeg"
+                  alt="Company Logo"
+                />
+              </a>
+            </div>
+            <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+              <a
+                href="#about"
+                class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                >About Us</a
+              >
+              <a
+                href="#services"
+                class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                >Services</a
+              >
+              <a
+                href="#partners"
+                class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                >Our Partners</a
+              >
+              <a
+                href="#contact"
+                class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="-mr-2 flex items-center sm:hidden">
+            <button
+              type="button"
+              class="mobile-menu-button w-8 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu, show/hide based on menu state. -->
+      <div class="sm:hidden mobile-menu">
+        <div class="pt-2 pb-3 space-y-1">
+          <a
+            href="#about"
+            class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            style="--item-index: 0"
+            >About Us</a
+          >
+          <a
+            href="#services"
+            class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            style="--item-index: 1"
+            >Services</a
+          >
+          <a
+            href="#partners"
+            class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            style="--item-index: 2"
+            >Our Partners</a
+          >
+          <a
+            href="#contact"
+            class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            style="--item-index: 3"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section / Home -->
+    <section
+      id="home"
+      class="relative bg-gradient-to-r from-teal-500 to-teal-300 text-white min-h-screen flex items-center pt-20 overflow-hidden"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="lg:flex lg:items-center lg:justify-between">
+          <!-- Left Content -->
+          <div class="lg:w-3/4 text-center lg:text-left relative z-10 fade-in">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl">
+              <span class="font-bold"> Technology Authentication </span>
+              <br />
+              <span
+                class="text-3xl sm:text-4xl md:text-5xl font-light mt-2 inline-block"
+              >
+                Seamless Connectivity
+              </span>
+            </h1>
+            <p class="mt-6 text-md text-lg">
+              Trusted International Intelligent Authentication Solutions
+              Provider
+            </p>
+            <div class="mt-8">
+              <a
+                href="#contact"
+                class="inline-block w-full lg:w-[200px] text-center px-8 py-3 text-teal-600 bg-white font-medium rounded-lg shadow-md hover:bg-gray-100 transition"
+              >
+                Connect Now
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Illustration -->
+          <div
+            class="mt-20 lg:mt-0 lg:w-1/2 relative z-[9] scale-[1.2] lg:scale-[1.5] translate-x-[24px] xl:translate-x-[50px]"
+          >
+            <img
+              class="w-full"
+              src="./assets/images/hero-illustration.webp"
+              alt="Illustration"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Decorative White Line -->
+      <div class="absolute inset-0 pointer-events-none fade-in">
+        <svg
+          class="absolute w-full h-3/4 -bottom-24 lg:-bottom-40 left-0 transform rotate-180 opacity-50"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          preserveAspectRatio="none"
+        >
+          <path
+            fill="none"
+            stroke="white"
+            stroke-width="0.5"
+            d="M0,160 C360,80 720,240 1080,160 C1260,120 1440,200 1440,200"
+          />
+        </svg>
+      </div>
+
+      <!-- Decorative Elements -->
+      <div class="absolute inset-0 overflow-hidden">
+        <svg
+          class="absolute top-0 left-0 transform -translate-x-1/2"
+          width="640"
+          height="640"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="320" cy="320" r="320" fill="rgba(255, 255, 255, 0.1)" />
+        </svg>
+        <svg
+          class="absolute bottom-0 right-0 transform translate-x-1/2 translate-y-1/2"
+          width="640"
+          height="640"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="320" cy="320" r="320" fill="rgba(255, 255, 255, 0.1)" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-14">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2
+            class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            <span class="text-teal-600">Discover</span> Our Journey to
+            Excellence
+          </h2>
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+            Learn more about our company and our mission.
+          </p>
+        </div>
+        <div class="mt-6 lg:mt-10">
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div class="flex justify-center items-center">
+              <img
+                class="rounded-lg shadow-lg w-full"
+                src="./assets/images/about.webp"
+                alt="About us image"
+              />
+            </div>
+            <div class="flex flex-col justify-center text-justify lg:text-left">
+              <h3 class="text-lg lg:text-xl font-bold text-gray-900">
+                About Us
+              </h3>
+              <p class="mt-4 text-sm lg:text-base text-gray-600">
+                PT AURA KREASI TEKNOLOGI is a dedicated provider of all-in one
+                multi-channel user identity authentication, marketing, and
+                notification solutions for enterprises looking to expand
+                internationally. We have integrated various international
+                mainstream communication channels, including SMS, voice, call
+                centers, email, and WhatsApp. Our aim is Enabling Global
+                Connectivity for Enterprises with Ease, with our services
+                covering over 200 countries and regions.
+              </p>
+              <p class="mt-4 text-sm lg:text-base text-gray-600">
+                PT AURA KREASI TEKNOLOGI is headquartered in Jakarta, Indonesia
+                and will expand the branch offices in several countries and
+                regions, including Singapore, Malaysia, Indonesia, Brazil, and
+                Philiphine.
+              </p>
+              <p class="mt-4 text-sm lg:text-base text-gray-600">
+                We provide cloud communication industry, PT AURA KREASI
+                TEKNOLOGI core team possesses deep insights into the trends and
+                dynamics of international expansion in key markets. We are
+                dedicated to delivering high-quality 24/7/365 customer support
+                services to our clients
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Section -->
+    <section id="global-choices" class="py-8 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2
+            class="text-2xl font-bold md:font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            <span class="text-teal-600">20+ Years </span> of International
+            Communication Business
+          </h2>
+        </div>
+        <div
+          class="mt-4 md:mt-10 grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-8 text-center"
+        >
+          <div>
+            <p class="text-4xl font-medium md:font-bold text-gray-900">
+              99.99%
+            </p>
+            <p class="mt-2 text-sm md:font-medium text-gray-500">
+              Stable Uptime
+            </p>
+          </div>
+          <div>
+            <p class="text-4xl font-medium md:font-bold text-gray-900">200+</p>
+            <p class="mt-2 text-sm md:font-medium text-gray-500">
+              Regions Covered
+            </p>
+          </div>
+          <div>
+            <p class="text-4xl font-medium md:font-bold text-gray-900">
+              3,000+
+            </p>
+            <p class="mt-2 text-sm md:font-medium text-gray-500">
+              Connected Companies
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-14 overflow-hidden relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2
+            class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Innovative Solutions
+            <span class="text-teal-600">Tailored for You</span>
+          </h2>
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+            Explore our range of products and services designed to meet your
+            needs.
+          </p>
+        </div>
+        <div class="relative mt-10">
+          <!-- Chevron Navigation -->
+          <button
+            id="chevron-left"
+            class="w-8 h-8 absolute left-0 md:-left-9 top-1/2 transform -translate-y-1/2 text-black p-2 rounded-full border border-black focus:outline-none z-[11] flex items-center justify-center"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button
+            id="chevron-right"
+            class="w-8 h-8 absolute right-0 md:-right-9 top-1/2 transform -translate-y-1/2 text-black p-2 rounded-full border border-black focus:outline-none z-[11] flex items-center justify-center"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+          <!-- Product Slider -->
+          <div
+            id="product-slider"
+            class="flex gap-4 overflow-auto scrollbar-none snap-x snap-mandatory"
+          >
+            <div
+              data-product="sms"
+              class="product-item relative overflow-hidden snap-center ease-in transition-all min-w-[300px] md:min-w-[350px] min-w-[215px] md:min-w-[265px] h-[160px] md:h-[192px] flex justify-center items-end rounded-md cursor-pointer"
+            >
+              <img
+                src="./assets/images/product-1.webp"
+                alt="product 1"
+                class="absolute z-[8] w-full h-full object-cover rounded-md"
+              />
+              <div
+                class="absolute w-full h-full z-[9] bg-gradient-to-t from-teal-950 via-teal-900/60"
+              ></div>
+              <span
+                class="relative z-10 font-semibold text-xl md:text-3xl text-white h-[80px] md:h-[100px] text-center"
+              >
+                SMS
+              </span>
+            </div>
+            <div
+              data-product="sna"
+              class="product-item relative overflow-hidden snap-center ease-in transition-all min-w-[215px] md:min-w-[265px] h-[160px] md:h-[192px] flex justify-center items-end rounded-md cursor-pointer"
+            >
+              <img
+                src="./assets/images/product-2.webp"
+                alt="product 1"
+                class="absolute z-[8] w-full h-full object-cover rounded-md"
+              />
+              <div
+                class="absolute w-full h-full z-[9] bg-gradient-to-t from-teal-950 via-teal-900/60"
+              ></div>
+              <span
+                class="relative z-10 font-semibold text-xl md:text-3xl text-white h-[80px] md:h-[100px] text-center"
+              >
+                Silent Network Authentication
+              </span>
+            </div>
+            <div
+              data-product="voice"
+              class="product-item relative overflow-hidden snap-center ease-in transition-all min-w-[215px] md:min-w-[265px] h-[160px] md:h-[192px] flex justify-center items-end rounded-md cursor-pointer"
+            >
+              <img
+                src="./assets/images/product-3.webp"
+                alt="product 1"
+                class="absolute z-[8] w-full h-full object-cover rounded-md"
+              />
+              <div
+                class="absolute w-full h-full z-[9] bg-gradient-to-t from-teal-950 via-teal-900/60"
+              ></div>
+              <span
+                class="relative z-10 font-semibold text-xl md:text-3xl text-white h-[80px] md:h-[100px] text-center"
+              >
+                Voice
+              </span>
+            </div>
+            <div
+              data-product="email"
+              class="product-item relative overflow-hidden snap-center ease-in transition-all min-w-[215px] md:min-w-[265px] h-[160px] md:h-[192px] flex justify-center items-end rounded-md cursor-pointer"
+            >
+              <img
+                src="./assets/images/product-4.webp"
+                alt="product 1"
+                class="absolute z-[8] w-full h-full object-cover rounded-md"
+              />
+              <div
+                class="absolute w-full h-full z-[9] bg-gradient-to-t from-teal-950 via-teal-900/60"
+              ></div>
+              <span
+                class="relative z-10 font-semibold text-xl md:text-3xl text-white h-[80px] md:h-[100px] text-center"
+              >
+                Email
+              </span>
+            </div>
+            <div
+              data-product="auth"
+              class="product-item relative overflow-hidden snap-center ease-in transition-all min-w-[215px] md:min-w-[265px] h-[160px] md:h-[192px] flex justify-center items-end rounded-md cursor-pointer"
+            >
+              <img
+                src="./assets/images/product-5.webp"
+                alt="product 1"
+                class="absolute z-[8] w-full h-full object-cover rounded-md"
+              />
+              <div
+                class="absolute w-full h-full z-[9] bg-gradient-to-t from-teal-950 via-teal-900/60"
+              ></div>
+              <span
+                class="relative z-10 font-semibold text-xl md:text-3xl text-white h-[80px] md:h-[100px] text-center"
+              >
+                Authentication
+              </span>
+            </div>
+            <div
+              data-product="ppob"
+              class="product-item relative overflow-hidden snap-center ease-in transition-all min-w-[215px] md:min-w-[265px] h-[160px] md:h-[192px] flex justify-center items-end rounded-md cursor-pointer"
+            >
+              <img
+                src="./assets/images/product-6.webp"
+                alt="product 1"
+                class="absolute z-[8] w-full h-full object-cover rounded-md"
+              />
+              <div
+                class="absolute w-full h-full z-[9] bg-gradient-to-t from-teal-950 via-teal-900/60"
+              ></div>
+              <span
+                class="relative z-10 font-semibold text-xl md:text-3xl text-white h-[80px] md:h-[100px] text-center"
+              >
+                PPOB
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Content -->
+        <div class="mt-4 rounded-md bg-gray-100 p-4 pr-0 md:p-8 md:pr-0">
+          <!-- SMS services -->
+          <div
+            data-product="sms"
+            class="product-detail flex flex-col md:flex-row"
+          >
+            <div class="space-y-4 max-w-lg mr-4 md:mr-8">
+              <span class="text-gray-900 font-semibold text-lg md:text-2xl">
+                SMS
+              </span>
+              <p class="text-gray-500 text-sm font-semibold">
+                Verification SMS / Notification SMS / Marketing SMS / Two-way
+                SMS
+              </p>
+              <p
+                class="pt-4 border-t border-gray-300 text-gray-500 text-sm !leading-7"
+              >
+                Despite its long-standing presence, SMS continues to be a
+                powerful tool for businesses to tap into global markets. With
+                its cost-effectiveness, extensive reach, and impressive open
+                rates, companies can instantly connect with thousands of
+                potential users in their target markets through SMS, ensuring
+                remarkable reach and response rates.
+              </p>
+            </div>
+            <div
+              class="flex overflow-auto scrollbar-none mt-4 md:mt-0 snap-x snap-mandatory lg:snap-none"
+            >
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-1.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Verification SMS
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    Focusing on international communications cloud services, PT
+                    AURA KREASI TEKNOLOGI helps establish a trustworthy
+                    connection with global customers more easily.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-2.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Marketing SMS
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    For scenarios such as customer acquisition, new product
+                    launches, holiday marketing, event marketing, and precision
+                    marketing, SMS provides multiple channels to accurately
+                    reach target customer groups, helping businesses achieve
+                    traffic growth and improve conversion rates.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-3.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Notification SMS
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    By sending notifications and reminders to customers and
+                    target audiences in the form of SMS at the right time, such
+                    as transaction alerts, order notifications, logistics
+                    updates, repayment reminders, etc., customer engagement and
+                    loyalty can be enhanced.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-4.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Two-way SMS
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    Utilizing ALTHOS GRANDIA (AG) Technologies, two-way
+                    messaging service, businesses can establish unique customer
+                    relationships through secure, private, and two-way
+                    communication, creating a seamless and enjoyable experience
+                    for their customers. Personalized customer interactions also
+                    lead to higher conversion rates.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SNA services -->
+          <div
+            data-product="sna"
+            class="product-detail flex flex-col md:flex-row hidden"
+          >
+            <div class="space-y-4 max-w-lg mr-4 md:mr-8">
+              <span class="text-gray-900 font-semibold text-lg md:text-2xl">
+                Silent Network Authentication (SNA)
+              </span>
+              <p class="text-gray-500 text-sm font-semibold">
+                Seamless authentication method
+              </p>
+              <p
+                class="pt-4 border-t border-gray-300 text-gray-500 text-sm !leading-7"
+              >
+                <strong>Application scenarios:</strong> registration, login,
+                payment, and number binding <br />
+                <strong>Product advantages:</strong>
+                <br />· Reduced verification time, minimizing user friction,
+                providing convenience, efficiency, and cost-effectiveness.
+                <br />· Ensured security and stability, effectively increasing
+                conversion rates and user retention.
+              </p>
+            </div>
+            <div class="hidden lg:flex flex-1 justify-center items-center">
+              <img
+                src="./assets/images/service-5.jpeg"
+                alt="product 2"
+                class="rounded-[28px]"
+              />
+            </div>
+          </div>
+
+          <!-- Voice services -->
+          <div
+            data-product="voice"
+            class="product-detail flex flex-col md:flex-row hidden"
+          >
+            <div class="space-y-4 max-w-lg mr-4 md:mr-8">
+              <span class="text-gray-900 font-semibold text-lg md:text-2xl">
+                Voice
+              </span>
+              <p class="text-gray-500 text-sm font-semibold">
+                Voice Verification Code / Voice Group Call / Cloud PBX / SIP
+                Trunk / AI Voice
+              </p>
+              <p
+                class="pt-4 border-t border-gray-300 text-gray-500 text-sm !leading-7"
+              >
+                When expanding business globally, international voice
+                communication is also a favored customer contact channel for
+                enterprises. With the help of PT AURA KREASI TEKNOLOGI
+                all-in-one communication CPaaS platform, businesses can quickly
+                connect to high-quality and stable voice services worldwide,
+                resulting in impressive conversion 18 rates.
+              </p>
+            </div>
+            <div
+              class="flex overflow-auto scrollbar-none mt-4 md:mt-0 snap-x snap-mandatory lg:snap-none"
+            >
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-6.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Voice Verification Code
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    Voice verification code conveys verification information to
+                    users through voice broadcasts, replacing or supplementing
+                    SMS verification codes.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-7.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Voice Group Call
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    ALTHOS GRANDIA (AG) Technologies provides a low-latency,
+                    feature-rich, carrier-grade network that ensures
+                    high-quality voice experiences. Its service coverage spans
+                    across 200 regions worldwide and is commonly used in
+                    advertising marketing, message notifications, customer
+                    relationship management, financial collections, and more.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-8.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Cloud PBX
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    Cloud PBX is a business phone solution supported by internet
+                    connectivity, suitable for AI Voice various communication
+                    scenarios in enterprises. It is practical and
+                    cost-effective.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-10.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    SIP Trunk
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    With PT AURA KREASI TEKNOLOGI, you can effortlessly build
+                    your global phone network using high-quality,
+                    high-stability, and low-cost SIP trunks, ensuring smooth
+                    communication experiences.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-9.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    AI Voice
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    Harnessing the power of AI voice technology, businesses can
+                    create immersive and enjoyable interactive experiences,
+                    while simultaneously reducing labor costs. By scaling up
+                    outreach to target users, they can effectively communicate
+                    the value of their brand and products, effortlessly breaking
+                    through barriers to brand promotion and expanding their
+                    reach.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email services -->
+          <div
+            data-product="email"
+            class="product-detail flex flex-col md:flex-row hidden"
+          >
+            <div class="space-y-4 max-w-lg mr-4 md:mr-8">
+              <span class="text-gray-900 font-semibold text-lg md:text-2xl">
+                Email
+              </span>
+              <p class="text-gray-500 text-sm font-semibold">
+                Email / Email Automation
+              </p>
+              <p
+                class="pt-4 border-t border-gray-300 text-gray-500 text-sm !leading-7"
+              >
+                Whether you are selling products or engaging with customers,
+                email marketing is an incredibly effective communication method.
+                PT AURA KREASI TEKNOLOGI can assist you in quickly and
+                efficiently creating, sending, sharing, and tracking email
+                marketing campaigns.
+              </p>
+            </div>
+            <div
+              class="flex overflow-auto scrollbar-none mt-4 md:mt-0 snap-x snap-mandatory lg:snap-none"
+            >
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-11.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Email
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    It provides a highly efficient and stable global email
+                    delivery API and optimizes delivery rates through real-time
+                    and accurate data feedback. Detailed data analysis reports
+                    are also available.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-12.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Email Automation
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    With PT AURA KREASI TEKNOLOGI drag and-drop workflow
+                    builder, you can implement various types of interactive
+                    strategies. Fully customizable workflow templates help you
+                    establish email marketing processes that align with your
+                    sales cycle.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Auth services -->
+          <div
+            data-product="auth"
+            class="product-detail flex flex-col md:flex-row hidden"
+          >
+            <div class="space-y-4 max-w-lg mr-4 md:mr-8">
+              <span class="text-gray-900 font-semibold text-lg md:text-2xl">
+                Authentication
+              </span>
+              <p class="text-gray-500 text-sm font-semibold">
+                Effortlessly Verify Global Users in Bulk
+              </p>
+              <p
+                class="pt-4 border-t border-gray-300 text-gray-500 text-sm !leading-7"
+              >
+                PT AURA KREASI TEKNOLOGI intelligent authentication solution
+                ensures optimized routing and seamless channel switching to
+                enhance user verification experience across all fronts.
+              </p>
+            </div>
+            <div
+              class="flex overflow-auto scrollbar-none mt-4 md:mt-0 snap-x snap-mandatory lg:snap-none"
+            >
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-13.jpeg"
+                  alt="service 1"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Enhancing User Experience
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    Simplify the verification and integration processes, improve
+                    verification success rates, and enhance the overall user
+                    verification experience.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-14.jpeg"
+                  alt="service 2"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Diversifying Resource Types
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    Aggregate global dedicated channels for verification codes,
+                    with intelligent routing and scheduling across multiple
+                    channels such as SMS, voice, and email, ensuring
+                    high-quality routes.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-15.jpeg"
+                  alt="service 3"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Optimizing Operational Value
+                  </span>
+                  <p class="text-gray-500 text-sm font-light !leading-6 mt-2">
+                    Reduce churn rates caused by registration and verification
+                    processes, effectively improving the effectiveness of user
+                    registration, login, customer acquisition, and retention.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PPOB services -->
+          <div
+            data-product="ppob"
+            class="product-detail flex flex-col md:flex-row hidden"
+          >
+            <div class="space-y-4 max-w-lg mr-4 md:mr-8">
+              <span class="text-gray-900 font-semibold text-lg md:text-2xl">
+                Payment Point Online Bank (PPOB)
+              </span>
+              <p class="text-gray-500 text-sm font-semibold">
+                Bill Payment / Mobile Games / E-Wallet / Telco
+              </p>
+              <p
+                class="pt-4 border-t border-gray-300 text-gray-500 text-sm !leading-7"
+              >
+                Greater efficiency, convenience and inclusivity driven by
+                digital economic and financial integration are expected to
+                contribute to solid, balanced, inclusive and sustainable
+                economic growth. Regulatory efforts to integrate the digital
+                economy and finance are achieved through electronification. The
+                programs are expected to boost economic growth through greater
+                financial inclusion,physical health and economic efficiency.
+              </p>
+            </div>
+            <div
+              class="flex overflow-auto scrollbar-none mt-4 md:mt-0 snap-x snap-mandatory lg:snap-none"
+            >
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <div
+                  class="h-[140px] flex items-center justify-center bg-[#f1f1f1] overflow-hidden"
+                >
+                  <img
+                    src="./assets/images/service-16.png"
+                    alt="service 1"
+                    class="h-[100px] object-cover"
+                  />
+                </div>
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Bill Payment
+                  </span>
+                  <ul
+                    class="text-gray-500 text-sm font-light !leading-6 mt-2 list-disc pl-4"
+                  >
+                    <li>
+                      65% of e-wallet users use online payment to pay their
+                      bills.
+                    </li>
+                    <li>
+                      Favorite products: electricity. water, cable TV,
+                      entertainment.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <div
+                  class="h-[140px] flex items-center justify-center bg-[#23B79D] overflow-hidden"
+                >
+                  <img
+                    src="./assets/images/service-17.png"
+                    alt="service 1"
+                    class="h-[100px] object-cover brightness-[10]"
+                  />
+                </div>
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Mobile Games
+                  </span>
+                  <ul
+                    class="text-gray-500 text-sm font-light !leading-6 mt-2 list-disc pl-4"
+                  >
+                    <li>CAGR 6.78%.</li>
+                    <li>
+                      Mobile Games market is projected US$ 990 million in 2023.
+                    </li>
+                    <li>
+                      Active gamers predicted in 2027 reach up to 76.92m users.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <div
+                  class="h-[140px] flex items-center justify-center bg-[#f1f1f1] overflow-hidden"
+                >
+                  <img
+                    src="./assets/images/service-18.png"
+                    alt="service 1"
+                    class="h-[100px] object-cover"
+                  />
+                </div>
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    E-Wallet
+                  </span>
+                  <ul
+                    class="text-gray-500 text-sm font-light !leading-6 mt-2 list-disc pl-4"
+                  >
+                    <li>Growth 173% in 2020.</li>
+                    <li>Top 5 e-wallet: Gopay, OVO, Dana, LinkAja, Jenius.</li>
+                    <li>
+                      Indonesia market size predicted US$ 48.5 bil in 2025
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="min-w-[280px] w-[280px] overflow-hidden border bg-white rounded mr-4 snap-center"
+              >
+                <img
+                  src="./assets/images/service-10.jpeg"
+                  alt="service 3"
+                  class="h-[140px] object-cover"
+                />
+                <div class="p-4">
+                  <span class="text-gray-600 font-semibold text-lg">
+                    Telco
+                  </span>
+                  <ul
+                    class="text-gray-500 text-sm font-light !leading-6 mt-2 list-disc pl-4"
+                  >
+                    <li>CAGR 4.14%.</li>
+                    <li>
+                      Telco industry contributed IDR 172.39 trillion to the GDP.
+                    </li>
+                    <li>
+                      Indonesia have 338.2 million total mobile connections.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Partners Section -->
+    <section id="partners" class="py-14 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2
+            class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Partners of
+            <span class="text-teal-600">Aura Teknologi</span>
+          </h2>
+        </div>
+        <div class="mt-10">
+          <!-- First Marquee Row - Scrolling Right to Left -->
+          <div class="marquee">
+            <div class="marquee-content">
+              <!-- First row partner logos -->
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/huawei-logo.webp"
+                  alt="Partner 1"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/indosat-logo.webp"
+                  alt="Partner 2"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/telin-logo.webp"
+                  alt="Partner 3"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/telkomsel-logo.webp"
+                  alt="Partner 4"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/aws-logo.webp"
+                  alt="Partner 5"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/smartfren-logo.webp"
+                  alt="Partner 6"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/ntt-logo.webp"
+                  alt="Partner 7"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/panin-bank-logo.webp"
+                  alt="Partner 8"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/optik-melawai-logo.webp"
+                  alt="Partner 25"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/mcd-logo.webp"
+                  alt="Partner 26"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/kfc-logo.webp"
+                  alt="Partner 27"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/danamon-logo.webp"
+                  alt="Partner 28"
+                />
+              </div>
+
+              <!-- Duplicate row items -->
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/huawei-logo.webp"
+                  alt="Partner 1"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/indosat-logo.webp"
+                  alt="Partner 2"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/telin-logo.webp"
+                  alt="Partner 3"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/telkomsel-logo.webp"
+                  alt="Partner 4"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/aws-logo.webp"
+                  alt="Partner 5"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/smartfren-logo.webp"
+                  alt="Partner 6"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/ntt-logo.webp"
+                  alt="Partner 7"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/panin-bank-logo.webp"
+                  alt="Partner 8"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/optik-melawai-logo.webp"
+                  alt="Partner 25"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/mcd-logo.webp"
+                  alt="Partner 26"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/kfc-logo.webp"
+                  alt="Partner 27"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/danamon-logo.webp"
+                  alt="Partner 28"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Marquee Row -->
+          <div class="marquee">
+            <div class="marquee-content">
+              <!-- Second row partner logos -->
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/china-mobil-logo.webp"
+                  alt="Partner 9"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/viettel-logo.webp"
+                  alt="Partner 10"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/china-unicom-logo.webp"
+                  alt="Partner 11"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/xl-axiata-logo.webp"
+                  alt="Partner 12"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/globe-logo.webp"
+                  alt="Partner 13"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/citic-logo.webp"
+                  alt="Partner 14"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/o2-logo.webp"
+                  alt="Partner 15"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/china-telecom-logo.webp"
+                  alt="Partner 16"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/shopee-logo.webp"
+                  alt="Partner 29"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/gojek-logo.webp"
+                  alt="Partner 30"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/finplus-logo.webp"
+                  alt="Partner 31"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/map-logo.webp"
+                  alt="Partner 32"
+                />
+              </div>
+
+              <!-- Duplicate row items -->
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/china-mobil-logo.webp"
+                  alt="Partner 9"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/viettel-logo.webp"
+                  alt="Partner 10"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/china-unicom-logo.webp"
+                  alt="Partner 11"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/xl-axiata-logo.webp"
+                  alt="Partner 12"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/globe-logo.webp"
+                  alt="Partner 13"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/citic-logo.webp"
+                  alt="Partner 14"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/o2-logo.webp"
+                  alt="Partner 15"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/china-telecom-logo.webp"
+                  alt="Partner 16"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/shopee-logo.webp"
+                  alt="Partner 29"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/gojek-logo.webp"
+                  alt="Partner 30"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/finplus-logo.webp"
+                  alt="Partner 31"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/map-logo.webp"
+                  alt="Partner 32"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Marquee Row -->
+          <div class="marquee">
+            <div class="marquee-content">
+              <!-- Third row partner logos -->
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/kddi-logo.webp"
+                  alt="Partner 17"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/vnpt-logo.webp"
+                  alt="Partner 18"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/sharp-logo.webp"
+                  alt="Partner 19"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/vodafone-logo.webp"
+                  alt="Partner 20"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/shopify-logo.webp"
+                  alt="Partner 21"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/sms-studio-logo.webp"
+                  alt="Partner 22"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/safaricom-logo.webp"
+                  alt="Partner 23"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/mtn-logo.webp"
+                  alt="Partner 24"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/starbucks-logo.webp"
+                  alt="Partner 33"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/bri-logo.webp"
+                  alt="Partner 34"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/phd-logo.webp"
+                  alt="Partner 35"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/unilever-logo.webp"
+                  alt="Partner 36"
+                />
+              </div>
+
+              <!-- Duplicate row items -->
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/kddi-logo.webp"
+                  alt="Partner 17"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/vnpt-logo.webp"
+                  alt="Partner 18"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/sharp-logo.webp"
+                  alt="Partner 19"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/vodafone-logo.webp"
+                  alt="Partner 20"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/shopify-logo.webp"
+                  alt="Partner 21"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/sms-studio-logo.webp"
+                  alt="Partner 22"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/safaricom-logo.webp"
+                  alt="Partner 23"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/mtn-logo.webp"
+                  alt="Partner 24"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/starbucks-logo.webp"
+                  alt="Partner 33"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/bri-logo.webp"
+                  alt="Partner 34"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/phd-logo.webp"
+                  alt="Partner 35"
+                />
+              </div>
+              <div class="partner-logo shadow">
+                <img
+                  class="max-h-[40px] md:max-h-[50px]"
+                  src="./assets/partners-logo/unilever-logo.webp"
+                  alt="Partner 36"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-14">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2
+            class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Let's <span class="text-teal-600">Connect</span> and Collaborate
+          </h2>
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+            Get in touch with our team. We'd love to hear from you!
+          </p>
+        </div>
+        <div class="mt-10">
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div class="bg-white shadow rounded-lg overflow-hidden">
+              <div class="px-4 py-5 sm:p-6">
+                <h3 class="text-lg font-medium leading-6 text-gray-900">
+                  Contact Information
+                </h3>
+                <div class="mt-6 space-y-4">
+                  <div class="flex">
+                    <div class="flex-shrink-0 w-4">
+                      <i class="fas fa-building-columns text-teal-600"></i>
+                    </div>
+                    <div class="ml-3 text-base text-gray-600">
+                      <p>PT AURA KREASI TEKNOLOGI</p>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <div class="flex-shrink-0 w-4">
+                      <i class="fas fa-map-marker-alt text-teal-600"></i>
+                    </div>
+                    <div class="ml-3 text-base text-gray-600">
+                      Jl. Rawa Bambu raya, Komp. Batan. B3, Jl. Komp. Batan Jl.
+                      Raya Ps. Minggu No.B3, RT.7/RW.7, Pasar Minggu, Jakarta
+                      12520
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <div class="flex-shrink-0 w-4">
+                      <i class="fas fa-envelope text-teal-600"></i>
+                    </div>
+                    <div class="ml-3 text-base text-gray-600">
+                      <p>marketing@aurateknologi.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <iframe
+                class="w-full h-64 lg:h-full rounded-lg shadow-md"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.85904712192996!2d106.83972973229645!3d-6.297234958485833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1745329773479!5m2!1sen!2sid"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="pb-14">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- atau px-0 kalau bener-bener tanpa padding -->
+        <form
+          id="contactForm"
+          class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full"
+        >
+          <!-- Your Name -->
+          <div>
+            <label
+              for="name"
+              class="block text-sm font-medium text-gray-700"
+              data-lang-key="contact-form-name"
+              >Your Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-teal-400 focus:border-teal-400"
+            />
+          </div>
+
+          <!-- Your Email -->
+          <div>
+            <label
+              for="email"
+              class="block text-sm font-medium text-gray-700"
+              data-lang-key="contact-form-email"
+              >Your Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-teal-400 focus:border-teal-400"
+            />
+          </div>
+
+          <!-- Your Phone No. -->
+          <div>
+            <label
+              for="phone"
+              class="block text-sm font-medium text-gray-700"
+              data-lang-key="contact-form-phone"
+              >Your Phone No.</label
+            >
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-teal-400 focus:border-teal-400"
+            />
+          </div>
+
+          <!-- Company or Occupation -->
+          <div>
+            <label
+              for="company"
+              class="block text-sm font-medium text-gray-700"
+              data-lang-key="contact-form-company"
+              >Company or Occupation</label
+            >
+            <input
+              type="text"
+              id="company"
+              name="company"
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-teal-400 focus:border-teal-400"
+            />
+          </div>
+
+          <!-- Subject (Full width) -->
+          <div class="md:col-span-2">
+            <label for="subject" class="block text-sm font-medium text-gray-700"
+              >Subject</label
+            >
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-teal-400 focus:border-teal-400"
+            />
+          </div>
+
+          <!-- Message (Full width, bigger height) -->
+          <div class="md:col-span-2">
+            <label
+              for="message"
+              class="block text-sm font-medium text-gray-700"
+              data-lang-key="contact-form-message"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-teal-400 focus:border-teal-400 min-h-[120px]"
+            ></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="md:col-span-2 flex justify-center">
+            <button
+              type="submit"
+              class="py-2 px-6 rounded-md w-full md:w-[300px] text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-400"
+              data-lang-key="contact-form-submit"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-teal-900 text-white">
+      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <div class="mt-6 border-t border-gray-100 pt-8">
+          <p class="text-base text-white text-center">
+            &copy; <span id="copyright-year">2025</span> PT Aura Kreasi
+            Teknologi. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
